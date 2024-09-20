@@ -22,7 +22,8 @@ const Videocall = () => {
       sharedLinks: [
         {
           name: 'Meeting Link',
-          url: `http://localhost:3000/room?roomId=${roomID}`,
+          //   url: `http://localhost:3000/room?roomId=${roomID}`,
+          url: `https://master--videocallingappninad.netlify.app/room?roomId=${roomID}`,
         },
       ],
       container: element,
