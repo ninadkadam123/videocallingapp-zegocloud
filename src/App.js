@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Videocall from './components/videocall';
 import CreateMeeting from './components/createmeeting';
