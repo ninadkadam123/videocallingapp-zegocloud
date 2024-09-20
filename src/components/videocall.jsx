@@ -8,8 +8,8 @@ const Videocall = () => {
   const roomID = queryParameter.get('roomId');
 
   let myMeeting = async (element) => {
-    const appID = await process.env.REACT_APP_ZEGOCLOUD_ID;
-    const serverSecret = await process.env.REACT_APP_ZEGOCLOUD_SECRET;
+    const appID = process.env.REACT_APP_ZEGOCLOUD_ID;
+    const serverSecret = process.env.REACT_APP_ZEGOCLOUD_SECRET;
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       parseInt(appID),
       serverSecret,
